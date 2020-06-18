@@ -1,0 +1,23 @@
+name: localization_zone
+description: Flutter Localization made easy.
+version: 0.0.1
+homepage: https://github.com/DiveZone/LocalizationZone
+repository: https://github.com/DiveZone/LocalizationZone
+issue_tracker: https://github.com/DiveZone/LocalizationZone
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.3 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  localization_zone_annotations:
+    path: ../localization_zone_annotations
+
+dev_dependencies:
+  build_runner: ">=1.10.0 <2.0.0"
+  build_test: ">=1.2.0 <2.0.0"
+  test: ">=1.15.0 <2.0.0"

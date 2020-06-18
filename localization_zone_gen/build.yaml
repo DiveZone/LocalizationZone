@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      localization_zone_gen|localization_zone:
+        enabled: true
+
+builders:
+  localization_zone_gen:
+    target: ":localization_zone_gen"
+    import: "package:localization_zone_gen/builder.dart"
+    builder_factories: ["copyWith"]
+    build_extensions: {".dart": ["localization_zone_gen.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
