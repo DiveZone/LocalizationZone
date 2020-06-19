@@ -16,12 +16,12 @@
 .idea/
 
 # Example
-example/android/
-example/ios/
-example/.gitignore
-example/.metadata
-example/test/
-example/lib/local/
+localization_zone_test/android/
+localization_zone_test/ios/
+localization_zone_test/.gitignore
+localization_zone_test/.metadata
+localization_zone_test/test/
+localization_zone_test/lib/src/localization.g.dart
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
